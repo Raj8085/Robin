@@ -14,7 +14,7 @@ export default function VirtualCards() {
         </div>
   
         {/* Cards Stack */}
-        <div className="relative w-[16rem] max-w-lg aspect-[1.586/1] perspective-1000">
+        <div className="mr-28 w-[20rem] relative max-w-lg aspect-[1.586/1] perspective-1000">
           {/* Generate multiple cards with different positions */}
           {[0, 1, 2, 3].map((index) => (
             <div
